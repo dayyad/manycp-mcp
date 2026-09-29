@@ -1,0 +1,10 @@
+{
+  "name": "manycp-mcp",
+  "version": "1.0.0",
+  "description": "Submit an MCP server to many MCP directories and track each listing from an AI assistant",
+  "mcpServers": {
+    "manycp-mcp": {
+      "httpUrl": "https://manycp.com/mcp"
+    }
+  }
+}

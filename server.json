@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.dayyad/manycp-mcp",
+  "description": "Submit an MCP server to many MCP directories and track each listing from an AI assistant",
+  "version": "1.0.0",
+  "title": "ManyCP MCP server",
+  "websiteUrl": "https://manycp.com",
+  "repository": {
+    "url": "https://github.com/dayyad/manycp-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://manycp.com/brand/manycp-logo-1024.png"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://manycp.com/mcp"
+    }
+  ]
+}
